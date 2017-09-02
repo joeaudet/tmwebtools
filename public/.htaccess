@@ -5,3 +5,5 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-l
 RewriteRule ^(.*)$ index.php?$1 [L,QSA]
+#Manual override of PHP version used by system
+AddHandler application/x-httpd-php71 .php
