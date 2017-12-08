@@ -1,0 +1,51 @@
+body {
+    background-color: #004165;
+}
+
+.white {
+    background-color: white;
+}
+
+.clear {
+    clear: both;
+}
+
+.float-right {
+    float: right;
+}
+
+#confirmation_msg {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+    z-index: 1;
+    text-align: center;
+    border-radius: 2px;
+    display: none;
+}
+
+th {
+    background-color: #004165;
+    color: white;
+    font-weight: bold;
+}
+
+#content {
+    margin-top: 5px;
+    padding-top: 5px;
+    clear: both;
+}
+
+#td-actions {
+    width: 13%;
+}
+
+.action {
+    position: relative;
+    float: left;
+}
+
+.required {
+    color: red;
+}
